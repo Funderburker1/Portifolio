@@ -15,6 +15,10 @@
   --font-action: "Mulish", serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*----------------------------------------------------------------------------*/
 /*MENU FLUTUANTE DO CANTO DIREITO*/
 .hamburguer {
