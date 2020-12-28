@@ -4,9 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="pagInicial.css">
-  <link rel="stylesheet" href="conteudo.css">
-  <link rel="stylesheet" href="projetos.css">
+  <link rel="stylesheet" href="/css/pagInicial.css">
+  <link rel="stylesheet" href="/css/conteudo.css">
+  <link rel="stylesheet" href="/css/projetos.css">
+  <link rel="stylesheet" href="/css/contato.css">
+  <link rel="stylesheet" href="/css/orcamento.css">
   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
@@ -144,7 +146,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, vero quaerat, a nam possimus
               voluptatum, quas nobis minima praesentium dicta porro doloremque exercitationem blanditiis dolores illo
               fuga libero delectus? Sequi.</p>
-            <button>Saiba Mais</button>
+            <button class="btn">Saiba Mais</button>
           </div>
         </div>
         <div class="card">
@@ -157,7 +159,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, vero quaerat, a nam possimus
               voluptatum, quas nobis minima praesentium dicta porro doloremque exercitationem blanditiis dolores illo
               fuga libero delectus? Sequi.</p>
-            <button>Saiba Mais</button>
+            <button class="btn">Saiba Mais</button>
           </div>
         </div>
         <div class="card">
@@ -165,14 +167,64 @@
             <img src="/img/proj3.jpg" alt="img projetos">
           </div>
           <div class="card-info">
-            <h2>Cada Bela</h2>
+            <h2>Casa Bela</h2>
             <h3>HTML</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, vero quaerat, a nam possimus
               voluptatum, quas nobis minima praesentium dicta porro doloremque exercitationem blanditiis dolores illo
               fuga libero delectus? Sequi.</p>
-            <button>Saiba Mais</button>
+            <button class="btn">Saiba Mais</button>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="sessao-contato">
+      <div class="contato-wrapper">
+        <div class="contato-left"></div>
+        <div class="contato-right">
+          <h1>Contato</h1>
+          <form action="">
+            <div class="input-group">
+              <input type="text" class="field" id="nome">
+              <label for="nome" class="field-label">Nome</label>
+            </div>
+            <div class="input-group">
+              <input type="text" class="field" id="email">
+              <label  for="email" class="field-label">E-mail</label>
+            </div>
+            <div class="input-group">
+              <textarea class="field" id="mensagem"></textarea>
+              <label  for="mensagem" class="field-label">Mensagem</label>
+            </div>
+            <button type="submit" class="btn btn-submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="sessao-orcamento">
+      <div class="orcamento-wrapper">
+        <h1>Faça um orçamento</h1>
+        <form action="">
+          <label for="qtde">Quantidade de Paginas</label>
+          <input type="number"  min="1" name="qtde" id="qtde">
+          <label for="js">Preciso de um script JS</label>
+          <input type="checkbox" name="js" id="js">
+          <label>Layout</label>
+          <div class="group-layout">
+            <div>
+              <input type="radio" name="layout" id="layout-sim">
+              <label for="layout-sim">Preciso de um layout</label>
+            </div>
+            <div>
+              <input type="radio" name="layout" id="layout-nao">
+              <label for="layout-nao">Já tenho um layout</label>
+            </div>
+          </div>
+          <label for="prazo">Prazo</label>
+          <input type="range" name="prazo" id="prazo">
+          <button class="btn btn-orcamento" type="submit">Enviar</button>
+        </form>
       </div>
     </section>
   </div>

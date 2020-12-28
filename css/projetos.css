@@ -81,9 +81,8 @@
   margin-bottom: 2rem;
 }
 /*CARD BOTÃO*/
-.card-info button {
-  width: 8rem;
-  height: 2.5rem;
+
+.btn {
   background: #6a3093;
   background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  
   background: linear-gradient(to left, #a044ff, #6a3093);
@@ -93,6 +92,12 @@
   border: none;
   box-shadow: 0 .1rem .8rem rgba(0, 0, 0 .4);
   cursor: pointer;
+}
+
+.card-info button {
+  width: 8rem;
+  height: 2.5rem;
+  
 }
 
 .card:hover .card-info {

@@ -193,6 +193,8 @@ header {
   top: 0;
   right: -20rem;
   transition: all .8s;
+  z-index: 90;
+  
  
 }
 
