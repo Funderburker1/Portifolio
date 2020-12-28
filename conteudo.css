@@ -14,7 +14,8 @@
   --font-secundary: "Josefin Slab", serif;
   --font-action: "Mulish", serif;
 }
-
+/*----------------------------------------------------------------------------*/
+/*PAGINA CONHECIMENTOS*/
 .conhecimentos {
   display: grid;
   grid-template-columns: repeat(16, 1fr);

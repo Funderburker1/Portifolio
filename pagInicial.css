@@ -169,7 +169,7 @@ header {
 .banner button:hover {
   font-size: 15px;
   color: #ffffff;
-  box-shadow: .3rem .4rem 2px rgba(0,0,0, .4);
+  box-shadow: 0.3rem 0.3rem 0.3rem rgba(0,0,0, .5);
  
 }
 
