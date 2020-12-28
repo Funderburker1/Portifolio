@@ -85,7 +85,6 @@
 .field-label {
   position: absolute;
   left: 0;
-  top: 2rem;
   font-size: 1.2rem;
   font-family: var(--font-secundary);
   text-transform: uppercase;
