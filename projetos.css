@@ -104,5 +104,5 @@
 .card-info button:hover {
   font-size: 14px;
   color: #ffffff;
-  box-shadow: 0.3rem 0.3rem 0.3rem rgba(0,0,0, .5);
+  box-shadow: 0.3rem 0.3rem 0.3rem rgba(0,0,0, .4);
 }
