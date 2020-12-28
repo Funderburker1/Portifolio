@@ -63,7 +63,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #6a3093;
+  background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  
+  background: linear-gradient(to left, #a044ff, #6a3093);
   color: #ffffff;
   font-family: var(--font-action);
   opacity: 0;
@@ -103,7 +104,7 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.5;
+  opacity: 0.4;
   animation: zoom 16s;
 }
 
@@ -156,7 +157,7 @@ header {
   letter-spacing: .1rem;
   background: #6a3093; 
   background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  
-  background: linear-gradient(to right, #a044ff, #6a3093);
+  background: linear-gradient(to left, #a044ff, #6a3093);
   padding: 1rem 3rem;
   border: none;
   border-radius: 5px;
@@ -166,9 +167,10 @@ header {
 }
 
 .banner button:hover {
-  opacity: .8;
-  font-size: 14px;
-  
+  font-size: 15px;
+  color: #ffffff;
+  box-shadow: .3rem .4rem 2px rgba(0,0,0, .4);
+ 
 }
 
 @keyframes moveBanner {
@@ -190,7 +192,7 @@ header {
   position: fixed;
   top: 0;
   right: -20rem;
-  transition: all 1s;
+  transition: all .8s;
  
 }
 
@@ -214,7 +216,7 @@ header {
   font-family: var(--font-action);
   font-size: 2rem;
   color: #555;
-  transition: color 1s;
+  transition: color .8s;
 }
 
 .menu-link:hover {
@@ -239,7 +241,7 @@ header {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  transition: background-color 1s;
+  transition: background-color .8s;
 }
 
 .social-media i:hover {
